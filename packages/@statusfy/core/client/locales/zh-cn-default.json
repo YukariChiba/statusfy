@@ -1,0 +1,109 @@
+{
+  "title": "系统状态",
+  "description": "及时了解我们服务的实时状态和历史中断信息。",
+  "labels": {
+    "contact": "联系方式",
+    "support": "支持",
+    "home": "主页",
+    "powered-by": "Powered by",
+    "legal": "法律声明",
+    "privacy": "数据隐私"
+  },
+  "statuses": {
+    "under-maintenance": "维护中",
+    "degraded-performance": "性能下降",
+    "partial-outage": "部分故障",
+    "major-outage": "重大故障",
+    "operational": "工作正常"
+  },
+  "dates": {
+    "formats": {
+      "short": "MMM D, YYYY",
+      "long": "MMM D, HH:mm UTC",
+      "month": "MMMM YYYY"
+    }
+  },
+  "incidents": {
+    "incidents": "故障",
+    "incident": "故障",
+    "scheduled": "计划中的维护",
+    "incidents-history": "故障历史",
+    "incidents-history-description": "我们服务当前和历史的中断情况。",
+    "incidents-history-days-since-latest": "上次故障发生已过去 {days} 天。",
+    "latest-incidents": "最近故障",
+    "current-status": "当前状态",
+    "current-status-description": "及时了解我们服务的实时状态和历史中断信息。",
+    "no-incidents": "没有报告的故障。",
+    "resolved": "已解决",
+    "unresolved": "未解决",
+    "paginator": {
+      "previous": "上一页",
+      "next": "下一页",
+      "page": "页面"
+    },
+    "collapse": {
+      "show": "显示全部 {count} 个故障",
+      "hide": "显示更少故障"
+    }
+  },
+  "error": {
+    "go-back-link": "返回首页",
+    "404": {
+      "title": "页面不存在",
+      "description": "找不到您要访问的页面"
+    },
+    "other": {
+      "title": "发生了一个错误",
+      "description": "很抱歉，我们无法完成您的请求"
+    }
+  },
+  "systems": {
+    "items": {
+      "cdn": {
+        "title": "CDN"
+      },
+      "dns": {
+        "title": "DNS"
+      },
+      "site-delivery": {
+        "title": "网站交付"
+      },
+      "api": {
+        "title": "API",
+        "description": "供开发人员访问的 API Endpoint。"
+      }
+    }
+  },
+  "notifications": {
+    "title": "订阅最新消息",
+    "description": "从下面的选项中选择以自动接收状态更新。",
+    "buttons": {
+      "subscribe": "订阅",
+      "close": "关闭"
+    },
+    "items": {
+      "icalendar": {
+        "title": "日历",
+        "description": "通过 <a href=\"{url}\" target=\"_blank\" rel=\"noopener\">iCalendar</a> 接收 <strong>计划中的维护</strong>。"
+      },
+      "feeds": {
+        "title": "Feeds",
+        "description": "下载 <a href=\"{atom_url}\" target=\"_blank\" rel=\"noopener\">Atom Feed</a> 或者 <a href=\"{rss_url}\" target=\"_blank\" rel=\"noopener\">RSS Feed</a>。"
+      },
+      "twitter": {
+        "title": "Twitter",
+        "description": "或者 <a href=\"https://twitter.com/{username}\" target=\"_blank\" rel=\"noopener\">查看我们的资料</a>。"
+      },
+      "support": {
+        "title": "支持",
+        "description": "访问我们的 <a href=\"{url}\" target=\"_blank\" rel=\"noopener\">支持站点</a>。"
+      },
+      "webpush": {
+        "title": "推送",
+        "description": "发送到您浏览器的通知。",
+        "enable": "启用通知",
+        "enabled": "已为此浏览器启用通知。"
+      }
+    }
+  }
+}
